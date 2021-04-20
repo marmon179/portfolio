@@ -8,12 +8,12 @@ export function Contacts() {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>Contacts</h2>
                     <form action="demo_form.asp" className={style.contacts}>
-                        <div className={style.inputs}><input type="text"/></div>
-                        <div className={style.inputs}><input type="text"/></div>
-                        <div className={style.textarea}><textarea></textarea></div>
+                        <input type="text" className={style.inputs}/>
+                        <input type="text" className={style.inputs}/>
+                        <textarea className={style.textarea}></textarea>
                     </form>
                 <div>
-                    <span className={style.iconSubmit}>Отправить</span>
+                    <div className={style.iconSubmit}>Отправить</div>
                 </div>
             </div>
 

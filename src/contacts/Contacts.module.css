@@ -4,35 +4,29 @@
 }
 .contactsContainer {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .title {
     background-color: gray;
 }
 .contacts {
     border: 1px solid;
-    width: 400px;
-    height: 170px;
+    width: 360px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
+
 }
 .inputs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 10px 0;
-    background-color: chocolate;
-    width: 400px;
+    width: 350px;
+    height: 25px;
+    margin: 0 0 3px 0;
 }
 .textarea {
-    display: flex;
-    justify-content: center;
-    background-color: chocolate;
-    width: 400px;
-    height: 107px;
+    width: 350px;
+    height: 75px;
 }
 .iconSubmit {
     display: flex;
@@ -40,5 +34,6 @@
     justify-content: center;
     height: 50px;
     width: 150px;
+    margin: 20px 0 0 0 ;
     background-color: blueviolet;
 }
