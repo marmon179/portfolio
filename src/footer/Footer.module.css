@@ -4,20 +4,20 @@
 }
 .footerContainer {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .title {
     background-color: gray;
 }
 .icon{
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
     background-color: cornflowerblue;
 }
 .footer {
     border: 1px solid;
-    width: 700px;
-    height: 100px;
+    width: 140px;
+    height: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
