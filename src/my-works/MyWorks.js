@@ -10,8 +10,8 @@ export function MyWorks() {
             <div className={`${styleContainer.container} ${style.myWorksContainer}`}>
                 <h2 className={style.title}>My Works</h2>
                 <div className={style.works} >
-                    <Work />
-                    <Work />
+                    <Work title={'Todolist'}  description={'fggfgfdgfdgfgfdgfdgfdgfdgdgdgdgdfdfdfafdsafdsfdsf'}/>
+                    <Work title={'Social'} description={'fggfgfdgfdgfgfdgfdgfdgfdgdgdgdg'}/>
                 </div>
             </div>
 

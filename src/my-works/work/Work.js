@@ -11,8 +11,8 @@ export function Work(props) {
                 </div>
             </div>
             <div className={style.description}>
-                <span className={style.nameProject}>Название проекта</span>
-                <span className={style.shortDescription}>Краткое описание</span>
+                <span className={style.title}>{props.title}</span>
+                <span className={style.shortDescription}>{props.description}</span>
 
             </div>
 

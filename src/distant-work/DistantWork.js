@@ -5,11 +5,9 @@ import styleContainer from '../../src/common/style/Container.module.css'
 export function DistantWork() {
     return (
         <div className={style.distantBlock}>
-            <div className={`${styleContainer.container} ${style.workDistantContainer}`}>
+            <div className={styleContainer.container}>
                 <div className={style.distantContainer}>
-                    <div className={style.containerDistantWork}>
-                        <h3>Рассматриваю варианты удаленной работы</h3>
-                    </div>
+                    <h3 className={style.containerDistantWork}>Рассматриваю варианты удаленной работы</h3>
                     <span className={style.iconWorkDistant}>Нанять меня</span>
                 </div>
             </div>
