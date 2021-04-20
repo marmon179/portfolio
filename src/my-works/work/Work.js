@@ -5,7 +5,7 @@ import style from './Work.module.css'
 export function Work(props) {
     return (
         <div className={style.work}>
-            <div className={style.img}>
+            <div  className={style.picture}>
                 <div className={style.icon}>
                     <h3>Смотреть</h3>
                 </div>
