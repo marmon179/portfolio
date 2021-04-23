@@ -1,18 +1,20 @@
-.myWorksBlock {
+.Projects {
     min-height: 100vh;
     background-color: cyan;
 }
 
-.myWorksContainer{
+.ProjectsContainer{
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.title{
+.project_title{
     background-color: gray;
 }
-
-.works{
+.contacts_title {
+    background-color: orange;
+}
+.projectContainer{
     border: 1px solid;
     width: 100%;
     display: flex;

@@ -6,27 +6,24 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.title {
+.contacts_title {
     background-color: gray;
 }
-.contacts {
+.contacts_Form {
     border: 1px solid;
-    width: 360px;
+    width: 280px;
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 
 }
-.inputs {
-    width: 350px;
-    height: 25px;
-    margin: 0 0 3px 0;
+.contacts_inputs {
+    padding: 5px;
 }
-.textarea {
-    width: 350px;
-    height: 75px;
+.contacts_textarea {
+    height: 50%;
 }
 .iconSubmit {
     display: flex;

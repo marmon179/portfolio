@@ -3,22 +3,22 @@
     background-color: darkkhaki;
 }
 .footerContainer {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.title {
+.footer_title {
     background-color: gray;
 }
 .icon{
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
     background-color: cornflowerblue;
 }
-.footer {
+.socialContainer {
     border: 1px solid;
-    width: 140px;
-    height: 20px;
+    width: 280px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
 }

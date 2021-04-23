@@ -1,19 +1,19 @@
-.work{
+.project{
     width: 350px;
     background-color: gray;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 
 }
-.picture {
+.project_imgContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 100%;
     height:200px ;
-    background-color: chocolate;
+    background-image: url("https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile-656x369.png");
+    background-size: cover ;
+    background-position: center;
 }
 
 .icon{
@@ -33,15 +33,11 @@
     width: 350px;
     background-color: burlywood;
 }
-.title {
-    margin: 10px 0 0 20px;
+.project_title {
+    margin: 5px 5px 0 ;
     background-color: aliceblue;
 }
-.shortDescription{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 5px 0 0 20px;
-    width: 300px;
+.project_description{
+    margin: 5px;
     background-color: blueviolet;
 }

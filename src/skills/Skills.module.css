@@ -5,9 +5,11 @@
 .skillsContainer{
     flex-direction: column;
     justify-content: flex-start;
-
 }
-.title{
+.contacts_title{
+    background-color: orange;
+}
+.project_title{
  background-color: gray;
 }
 .skills{
