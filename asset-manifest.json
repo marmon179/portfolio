@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bae1e729.chunk.css",
-    "main.js": "/portfolio/static/js/main.79d59851.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.79d59851.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5553807b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5553807b.js.map",
-    "static/js/2.34d0daf3.chunk.js": "/portfolio/static/js/2.34d0daf3.chunk.js",
-    "static/js/2.34d0daf3.chunk.js.map": "/portfolio/static/js/2.34d0daf3.chunk.js.map",
-    "static/js/3.ac9cafe5.chunk.js": "/portfolio/static/js/3.ac9cafe5.chunk.js",
-    "static/js/3.ac9cafe5.chunk.js.map": "/portfolio/static/js/3.ac9cafe5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2f138090.chunk.css",
+    "main.js": "/portfolio/static/js/main.db25bdab.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.db25bdab.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1cff74b5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1cff74b5.js.map",
+    "static/js/2.6e11b920.chunk.js": "/portfolio/static/js/2.6e11b920.chunk.js",
+    "static/js/2.6e11b920.chunk.js.map": "/portfolio/static/js/2.6e11b920.chunk.js.map",
+    "static/js/3.465c90be.chunk.js": "/portfolio/static/js/3.465c90be.chunk.js",
+    "static/js/3.465c90be.chunk.js.map": "/portfolio/static/js/3.465c90be.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.bae1e729.chunk.css.map": "/portfolio/static/css/main.bae1e729.chunk.css.map",
-    "static/js/2.34d0daf3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.34d0daf3.chunk.js.LICENSE.txt"
+    "static/css/main.2f138090.chunk.css.map": "/portfolio/static/css/main.2f138090.chunk.css.map",
+    "static/js/2.6e11b920.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6e11b920.chunk.js.LICENSE.txt",
+    "static/media/depositphotos_314607474-stock-illustration-to-do-list-badge-with.489d5b92.jpg": "/portfolio/static/media/depositphotos_314607474-stock-illustration-to-do-list-badge-with.489d5b92.jpg",
+    "static/media/social-blog.203cda29.jpg": "/portfolio/static/media/social-blog.203cda29.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5553807b.js",
-    "static/js/2.34d0daf3.chunk.js",
-    "static/css/main.bae1e729.chunk.css",
-    "static/js/main.79d59851.chunk.js"
+    "static/js/runtime-main.1cff74b5.js",
+    "static/js/2.6e11b920.chunk.js",
+    "static/css/main.2f138090.chunk.css",
+    "static/js/main.db25bdab.chunk.js"
   ]
 }
