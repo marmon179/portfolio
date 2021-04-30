@@ -4,16 +4,16 @@ import styleContainer from '../common/style/Container.module.css';
 
 export function Footer() {
     return (
-        <div className={style.footerBlock}>
+        <div className={style.footer}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h4 className={style.footer_title}>Alex Lapko</h4>
-                <div className={style.socialContainer}>
-                    <div className={style.icon}></div>
-                    <div className={style.icon}></div>
-                    <div className={style.icon}></div>
-                    <div className={style.icon}></div>
+                <h2 className={style.title}>Alex Lapko</h2>
+                <div className={style.socialIcons}>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
                 </div>
-                <h5 className={style.footer_title}>2021 Все права защищены</h5>
+                <span className={style.copyright}>2021 Все права защищены</span>
             </div>
 
         </div>

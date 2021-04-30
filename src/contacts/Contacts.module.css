@@ -1,36 +1,38 @@
-.contactsBlock{
-    min-height: 100vh;
+.contactsBlock {
     background-color: lightcoral;
 }
+
 .contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
-.contacts_title {
+
+.copyright {
     background-color: gray;
 }
-.contacts_Form {
-    border: 1px solid;
-    width: 280px;
-    height: 150px;
+
+.contactForm {
+    width: 100%;
+
+    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    align-items: center;
 
 }
-.contacts_inputs {
-    padding: 5px;
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
 }
-.contacts_textarea {
-    height: 50%;
-}
-.iconSubmit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 150px;
-    margin: 20px 0 0 0 ;
+
+.submitBtn {
+    padding: 10px 20px;
     background-color: blueviolet;
+}
+
+@media screen and (min-width: 450px) {
+    .contactForm {
+        width: 50%;
+
+    }
 }

@@ -1,12 +1,11 @@
 .skillsBlock {
-    min-height: 100vh;
     background-color: lightcoral;
 }
 .skillsContainer{
     flex-direction: column;
     justify-content: flex-start;
 }
-.contacts_title{
+.copyright{
     background-color: orange;
 }
 .project_title{
@@ -16,7 +15,14 @@
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
+}
+
+@media screen and (min-width: 940px) {
+    .skills {
+        justify-content: space-between;
+
+    }
 }
