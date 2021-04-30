@@ -1,13 +1,11 @@
 @import "./src/common/style/sass/variable";
+@import "./src/common/style/sass/mixins";
 
 .title {
+  @include text("Josefin Sans', sans-serif", 36px, 1.2);
   margin: 0 0 30px;
-  font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  color: $textColor;
   text-transform: capitalize;
-  font-size: 36px;
-  line-height: 1.2;
   letter-spacing: 5px;
   position: relative;
 
@@ -24,6 +22,7 @@
     bottom: -30px;
     left: 50%;
     transform: translate(-50%, 50%);
+    margin-bottom: 30px;
   }
 }
 
