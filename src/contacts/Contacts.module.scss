@@ -3,7 +3,7 @@
 
 .contactsBlock {
   padding: 100px 20px;
-  background-color: $bqColor;
+  background-color: $backgroundColorContacts;
 
   .contactsContainer {
     flex-direction: column;
@@ -18,9 +18,6 @@
       justify-content: center;
       flex-wrap: wrap;
     }
-
-    //@media screen and (min-width: 450px) {
-    //  width: 50%;
   }
 }
 

@@ -2,7 +2,7 @@
 @import "./src/common/style/sass/variable";
 
 .footerContainer {
-    background-color: $backgroundColorFooter;
+    background-color: $bqColor;
     display: flex;
     padding: 10px 0;
     @include container();
