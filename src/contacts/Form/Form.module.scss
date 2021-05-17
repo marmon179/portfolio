@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   width: 500px;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 20px;
 
   .inputBlock {
@@ -20,11 +20,11 @@
       font-weight: 300;
       line-height: 26px;
       letter-spacing: normal;
+      font-family: 'Poppins', sans-serif;
       border: none;
       border-bottom: 1px solid $colorForBorderInForm;
-      padding: 5px 0;
-      font-family: 'Poppins', sans-serif;
-      width: 49%;
+      padding: 5px 0 0 11px;
+      width: 47%;
     }
 
     &:active, :hover, :focus {

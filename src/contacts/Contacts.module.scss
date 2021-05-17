@@ -1,45 +1,30 @@
 @import "./src/common/style/sass/variable";
+@import "./src/common/style/sass/mixins";
 
 .contactsBlock {
-  position: relative;
-  height: auto;
-  padding: 60px 0;
+  padding: 100px 20px;
   background-color: $bqColor;
 
   .contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    @include container();
 
-    .contactForm {
+    .formAnData {
+      margin-top: 60px;
       width: 100%;
-      box-sizing: border-box;
       display: flex;
-      flex-direction: column;
       align-items: center;
-
-      input, textarea {
-        width: 70%;
-        margin-bottom: 1rem;
-        padding: 10px 0 10px 15px;
-        background: #252527 ;
-        border: 1px solid #4a4a4a;
-        font-size: 12px;
-        border-radius: 0;
-
-      }
-
-      .submitBtn {
-        padding: 10px 20px;
-        background-color: blueviolet;
-
-      }
-
-      @media screen and (min-width: 450px) {
-        width: 50%;
-      }
+      justify-content: center;
+      flex-wrap: wrap;
     }
+
+    //@media screen and (min-width: 450px) {
+    //  width: 50%;
   }
 }
+
+
 
 
 
