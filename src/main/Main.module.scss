@@ -2,7 +2,7 @@
 
 .mainBlock {
   min-height: 90vh;
-  background-color: $bqSecondColor;
+  background-color: $bqColor;
   @include flexible(space-between, center, column);
 
   .container {

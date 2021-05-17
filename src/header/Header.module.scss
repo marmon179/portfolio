@@ -1,7 +1,7 @@
 @import './src/common/style/sass/mixins.scss';
 
 .header{
-    background-color: $bqColor;
+    background-color: $backgroundColorContacts;
     height: 80px;
     @include flexible(flex-end,center,none);
 }

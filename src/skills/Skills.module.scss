@@ -1,0 +1,19 @@
+@import './src/common/style/sass/mixins.scss';
+
+.skillsBlock {
+    padding: 100px 0;
+    background-color: $bqSecondColor;
+    .skillsContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills{
+            margin-top: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+        }
+    }
+}
+

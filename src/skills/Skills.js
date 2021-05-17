@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import styleContainer from '../../src/common/style/Container.module.css'
 import {Skill} from './skill/Skill';
 import {Title} from '../common/components/title/Title';
@@ -7,13 +7,14 @@ import {Title} from '../common/components/title/Title';
 
 export function Skills() {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id="skills">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text ={'Skills'}/>
-                <div className={style.skills} >
-                    <Skill title = {'JS'} description={'Hello Heloo leo eloe lfj dfhjd kjdf id hkhj kdfd eeij ijnnknn khhf nn '}/>
-                    <Skill title = {'CSS'} description={'sed do dfdf dffdfl lkllm ....'}/>
-                    <Skill title = {'React'} description={'sed do e333t dfa incididunt ....'}/>
+                <Title text={'My Skills'}/>
+                <div className={style.skills}>
+                    <Skill title={'DEVELOPMENT'} description={'React, Redux, AXIOS etc'}/>
+                    <Skill title={'FOUNDATION'} description={'JavaScript, TypeScript, HTML5, CSS3'}/>
+                    <Skill title={'TESTING'} description={'Unit Tests, SnapShot, Storybook'}/>
+                    <Skill title={'DESIGN'} description={'Material UI, Ant-Design etc'}/>
                 </div>
 
             </div>
