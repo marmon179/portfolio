@@ -16,11 +16,19 @@ export function Projects() {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title text={'Projects'}/>
+                <Title text={'My portfolio'}/>
                 <div className={style.projects}>
-                    <Project style={todo} title={'Todolist'} description={'Project description'}/>
-                    <Project style={social} title={'Social'}
-                             description={'Project description Hello Hello Hello Hello Hello Hello'}/>
+                    <Project style={todo}
+                             title={'todolist'}
+                             description={'TS, Redux, RestAPI, Thunk,Material UI, Unit Tests'}
+                             link ={'https://marmon179.github.io/Social-Barcelona-new/'}
+                    />
+                    <Project style={social}
+                             title={'the social network'}
+                             description={'TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests'}
+                             link ={'https://marmon179.github.io/Social-Barcelona-new/'}
+                    />
+
                 </div>
             </div>
 
