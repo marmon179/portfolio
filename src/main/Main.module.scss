@@ -1,0 +1,53 @@
+@import './src/common/style/sass/mixins.scss';
+
+.mainBlock {
+  min-height: 90vh;
+  background-color: $bqSecondColor;
+  @include flexible(space-between, center, column);
+
+  .container {
+    @include container();
+  }
+
+  .greeting {
+    width: 500px;
+    text-align: left;
+
+    h1 {
+      color: $textColor;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: normal;
+      text-transform: uppercase;
+      margin: 0 0 15px;
+      //line-height: 1.1;
+    }
+
+    h5 {
+      color: $textColor;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 1px;
+      margin: 0 0 15px;
+      text-transform: uppercase;
+    }
+  }
+
+  .photo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+    img {
+      height: auto;
+      width: 100%;
+      max-width: 720px;
+    }
+  }
+}
+
+
+
+

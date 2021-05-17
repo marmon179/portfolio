@@ -6,3 +6,18 @@
   line-height: $lineHeight;
   color: $textColor;
 }
+
+@mixin flexible($justifyContent,$alignItems, $flexDirection) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-direction: $flexDirection
+}
+
+@mixin container() {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  @include flexible(space-between, center, column)
+}

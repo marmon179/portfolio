@@ -1,0 +1,56 @@
+@import "./src/common/style/sass/mixins";
+@import "./src/common/style/sass/variable";
+
+.footerContainer {
+    background-color: $backgroundColorFooter;
+    display: flex;
+    padding: 10px 0;
+    @include container();
+    @media screen and (max-width: 640px) {
+        & {
+            justify-content: center;
+        }
+    }
+
+  .copyRightBlock {
+    color: $textColorFooter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: normal;
+  }
+
+    ul {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+
+    a {
+      padding: 0 13px;
+      color: $textColorFooter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,15 +2,16 @@
 @import "./src/common/style/sass/mixins";
 
 .title {
-  @include text("Josefin Sans', sans-serif", 36px, 1.2);
+  @include text("'Josefin Sans', sans-serif", 36px, 1.2);
   margin: 0 0 30px;
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 5px;
   position: relative;
 
-  .title h2 {
+  & h2 {
     margin: 0;
+
   }
 
   &::before {

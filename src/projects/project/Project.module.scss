@@ -43,7 +43,7 @@
     padding: 25px 20px;
 
     .projectTitle {
-      @include text("Josefin Sans', sans-serif", 16px, 1.2);
+      @include text("'Josefin Sans', sans-serif", 16px, 1.2);
       letter-spacing: 1px;
       margin: 0 0 5px;
     }

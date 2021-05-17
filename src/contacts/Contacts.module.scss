@@ -1,6 +1,9 @@
 @import "./src/common/style/sass/variable";
 
 .contactsBlock {
+  position: relative;
+  height: auto;
+  padding: 60px 0;
   background-color: $bqColor;
 
   .contactsContainer {
