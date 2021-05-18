@@ -1,7 +1,6 @@
 @import './src/common/style/sass/mixins.scss';
 
 .header{
-    background-color: $backgroundColorContacts;
-    height: 80px;
+    height: 60px;
     @include flexible(flex-end,center,none);
 }
