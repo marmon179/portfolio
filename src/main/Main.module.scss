@@ -1,7 +1,7 @@
 @import './src/common/style/sass/mixins.scss';
 
 .mainBlock {
-  min-height: 90vh;
+  min-height: 100vh;
   background-color: $bqColor;
   @include flexible(space-between, center, column);
 
@@ -10,7 +10,7 @@
   }
 
   .greeting {
-    width: 500px;
+    width: 400px;
     text-align: left;
 
     h1 {
