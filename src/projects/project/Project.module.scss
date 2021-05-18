@@ -32,6 +32,8 @@
         padding: 15px;
 
         h3 {
+          display: flex;
+          justify-content: center;
           color: $textColorH3andBtn;
           font-size: 24px;
           font-weight: 650;
@@ -41,6 +43,8 @@
         }
 
         p {
+          display: flex;
+          justify-content: center;
           color: $textColorH3andBtn;
           font-size: 14px;
           font-weight: 300;
@@ -48,27 +52,33 @@
           letter-spacing: normal;
         }
 
-        .btn {
-          text-decoration: none;
-          border: 1px solid $textColorH3andBtn;
-          outline: 0;
-          -webkit-transition: .25s;
-          -o-transition: .25s;
-          transition: .25s;
-          text-transform: uppercase;
-          padding: 8px 12px;
-          cursor: pointer;
-          color: $textColorH3andBtn;
-          font-size: 14px;
-          font-weight: 600;
-          line-height: 1.42857143;
-          letter-spacing: normal;
+         .wrapperButton {
+          display: flex;
+          justify-content: center;
+
+          .btn {
+            text-decoration: none;
+            border: 1px solid $textColorH3andBtn;
+            outline: 0;
+            -webkit-transition: .25s;
+            -o-transition: .25s;
+            transition: .25s;
+            text-transform: uppercase;
+            padding: 8px 12px;
+            cursor: pointer;
+            color: $textColorH3andBtn;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.42857143;
+            letter-spacing: normal;
 
 
-          &:hover {
-            background-color: #2b2b2b;
-            border-color: #2b2b2b;
+            &:hover {
+              background-color: #2b2b2b;
+              border-color: #2b2b2b;
+            }
           }
+
         }
 
       }

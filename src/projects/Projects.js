@@ -21,7 +21,7 @@ export function Projects() {
                     <Project
                         title={'todolist'}
                         description={'TS, Redux, RestAPI, Thunk,Material UI, Unit Tests'}
-                        link={'https://marmon179.github.io/Social-Barcelona-new/'}
+                        link={'https://marmon179.github.io/Todolist/'}
                         img={one}
                     />
                     <Project
@@ -32,8 +32,8 @@ export function Projects() {
                     />
                     <Project
                         title={'counter'}
-                        description={'My first project with React/Redux/TS.I left It here as a memory.'}
-                        link={'https://marmon179.github.io/Social-Barcelona-new/'}
+                        description={'My first project with React/Redux/TS.I left It here as a memory'}
+                        link={'https://marmon179.github.io/Counter/'}
                         img={three}
                     />
                     <Project

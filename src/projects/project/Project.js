@@ -10,7 +10,10 @@ export function Project(props) {
                     <div className={style.description}>
                         <h3>{props.title}</h3>
                         <p>{props.description}</p>
-                        <a href={props.link} className={style.btn} target="_blank" rel="noreferrer">view project</a>
+                        <div className={style.wrapperButton}>
+                            <a href={props.link} className={style.btn} target="_blank"
+                               rel="noreferrer">view project</a>
+                        </div>
                     </div>
                 </div>
             </div>
