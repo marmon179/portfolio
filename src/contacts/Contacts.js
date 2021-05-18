@@ -5,7 +5,7 @@ import {Form} from './Form/Form';
 
 export function Contacts() {
     return (
-        <div className={style.contactsBlock}>
+        <div className={style.contactsBlock} id="contacts">
             <div className={style.contactsContainer}>
                 <Title text={'Contacts'}/>
                 <div className={style.formAnData}>

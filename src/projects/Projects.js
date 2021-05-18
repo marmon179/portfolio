@@ -14,7 +14,7 @@ export function Projects() {
         backgroundImage: `url(${todoImage})`,
     };
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} id="portfolio">
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={'My portfolio'}/>
                 <div className={style.projects}>
