@@ -3,31 +3,64 @@ import style from './Projects.module.scss'
 import styleContainer from '../common/style/Container.module.css';
 import {Project} from './project/Project';
 import {Title} from '../common/components/title/Title';
-import todoImage from '../assets/image/depositphotos_314607474-stock-illustration-to-do-list-badge-with.jpg'
-import socialImage from '../assets/image/social-blog.jpg'
+import one from '../assets/image/one.jpg'
+import two from '../assets/image/two.jpg'
+import three from '../assets/image/three.jpg'
+import four from '../assets/image/four.jpg'
+import five from '../assets/image/five.jpg'
+import six from '../assets/image/six.jpg'
+import seven from '../assets/image/seven.jpg'
+import eight from '../assets/image/eight.jpg'
 
 export function Projects() {
-    const social = {
-        backgroundImage: `url(${socialImage})`,
-    };
-    const todo = {
-        backgroundImage: `url(${todoImage})`,
-    };
     return (
         <div className={style.projectsBlock} id="portfolio">
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={'My portfolio'}/>
                 <div className={style.projects}>
-                    <Project style={todo}
-                             title={'todolist'}
-                             description={'TS, Redux, RestAPI, Thunk,Material UI, Unit Tests'}
-                             link ={'https://marmon179.github.io/Social-Barcelona-new/'}
+                    <Project
+                        title={'todolist'}
+                        description={'TS, Redux, RestAPI, Thunk,Material UI, Unit Tests'}
+                        link={'https://marmon179.github.io/Social-Barcelona-new/'}
+                        img={one}
                     />
-                    <Project style={social}
-                             title={'the social network'}
-                             description={'TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests'}
-                             link ={'https://marmon179.github.io/Social-Barcelona-new/'}
+                    <Project
+                        title={'the social network'}
+                        description={'TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests'}
+                        link={'https://marmon179.github.io/Social-Barcelona-new/'}
+                        img={two}
                     />
+                    <Project
+                        title={'counter'}
+                        description={'My first project with React/Redux/TS.I left It here as a memory.'}
+                        link={'https://marmon179.github.io/Social-Barcelona-new/'}
+                        img={three}
+                    />
+                    <Project
+                        title={'future project'}
+                        img={four}
+                        description={'...in progress'}
+                        link={'link #4'}/>
+                    <Project
+                        title={'future project'}
+                        img={five}
+                        description={'...in progress'}
+                        link={'link #5'}/>
+                    <Project
+                        title={'future project'}
+                        img={six}
+                        description={'...in progress'}
+                        link={'link #6'}/>
+                    <Project
+                        title={"future project"}
+                        img={seven}
+                        description={"...in progress"}
+                        link={"link #7"}/>
+                    <Project
+                        title={"future project"}
+                        img={eight}
+                        description={"...in progress"}
+                        link={"link #8"}/>
 
                 </div>
             </div>

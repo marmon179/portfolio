@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './Main.module.scss'
-import styleContainer from '../../src/common/style/Container.module.css'
 import photo from '../assets/image/photo.jpg'
 
 export function Main() {
     return (
         <div className={style.mainBlock} id="home">
-            <div className={styleContainer.container}>
+            <div className={style.container}>
                 <div className={style.greeting}>
                     <h5>Hello, my name is</h5>
                     <h1>Alex Lapko</h1>

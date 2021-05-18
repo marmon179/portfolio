@@ -5,7 +5,7 @@ import style from './Project.module.scss'
 export function Project(props) {
     return (
         <div className={style.project}>
-            <div className={style.image} style={props.style}>
+            <div className={style.image} style={{backgroundImage: `url(${props.img})`}}>
                 <div className={style.overlay}>
                     <div className={style.description}>
                         <h3>{props.title}</h3>
